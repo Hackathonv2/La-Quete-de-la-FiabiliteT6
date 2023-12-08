@@ -73,7 +73,6 @@ def main():
         print(line1_name)
     else:
         print(line2_name)
-    return 0
 
 if __name__ == "__main__":
     main()
