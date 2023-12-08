@@ -70,9 +70,9 @@ def main():
     hour2 = int(multiplier2) * (int(failure2) + int(repair2))
 
     if hour1 < hour2:
-        print(line1_name)
+        print(line1_name[0])
     else:
-        print(line2_name)
+        print(line2_name[0])
 
 if __name__ == "__main__":
     main()
